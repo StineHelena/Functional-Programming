@@ -7,3 +7,7 @@ Introduction
 
 
 Getting started with F#
+
+
+Notes:
+- In FSharp the () is implicit in most cases so you can write them or not but it will work the same

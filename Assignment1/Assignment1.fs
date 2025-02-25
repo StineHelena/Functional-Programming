@@ -7,6 +7,8 @@
     
     //Write a function pow : float -> float -> float that given two floating point numbers x and n returns x to the power of n
     let pow x n = Math.Pow(x, n)
+    //For this to work when testing write open System;; in the terminal first
+    
     
     //Write a recursive function sum : int -> int such that given an integer n such that n 0 returns the sum of all integers from 0 to n inclusive.
     let rec sum = function
@@ -17,8 +19,7 @@
     //So n-1 will but n - 1 will not work
     let rec sumAlt = function
         |   0 -> 0
-        |   n -> n + sum n-1  
-    
+        |   n -> n + sum n-1
 
     //Fibonacci with recursion. Write a function fib : int -> int
     let rec fib = function
