@@ -1,0 +1,9 @@
+﻿Lecture 1
+
+- F# is an open-source functional language integrated in the Visual Studio development platform.
+- Access to all of the .NET libraries
+
+Introduction
+
+
+Getting started with F#

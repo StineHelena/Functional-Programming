@@ -1,0 +1,3 @@
+﻿FSharp
+- Use dotnet fsi when testing functions
+- Copy the function and add ;; after
