@@ -6,11 +6,9 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Compile Include="Eval.fs" />
-        <Compile Include="Language.fs" />
-        <Compile Include="Programs.fs" />
-        <Compile Include="State.fs" />
-        <Content Include="Lecture 5.txt" />
+        <Compile Include="Rational.fsi" />
+        <Compile Include="Rational.fs" />
+        <Compile Include="Program.fs"/>
     </ItemGroup>
 
 </Project>

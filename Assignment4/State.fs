@@ -5,20 +5,19 @@ module Interpreter.State
     
     
     
-    let reservedVariableName (v : string) =
-        let variableNamesList = ["if"; "then"; "else"; "while"; "declare"; "print"; "random"; "fork"; "__result__"]
+    let reservedVariableName (v : string) = List.exists ((=) v) ["if"; "then"; "else"; "while"; "declare"; "print"; "random"; "fork"; "__result__"]
+    
+    let validVariableName (v : string) =
         match v with
-        | v -> variableNamesList |> List.exists (fun v -> v = (v))
-        
-
-    let validVariableName _ = failwith "not implemented"
+        | v when v[0] = '_' -> true
+        | v -> System.Char.IsAsciiLetter(char v[0]) || v |> String.forall System.Char.IsAsciiLetterOrDigit
     
-    type state = unit // your type goes here
+    type state = {map : Map<string, int>}
     
-    let mkState _ = failwith "not implemented"
+    let mkState () = {map = Map.empty }
     let random _ = failwith "not implemented"
-    
     let declare _ = failwith "not implemented"
+            
     
     let getVar _ = failwith "not implemented"
     let setVar _ = failwith "not implemented"

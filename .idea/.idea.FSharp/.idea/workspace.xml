@@ -6,6 +6,7 @@
     <projectFile>Assignment3/Assignment3.fsproj</projectFile>
     <projectFile>Assignment4/Assignment4.fsproj</projectFile>
     <projectFile>FSharp.fsproj</projectFile>
+    <projectFile>InClassModule/InClassModule.fsproj</projectFile>
     <projectFile>Kattis/Kattis.fsproj</projectFile>
   </component>
   <component name="AutoImportSettings">
@@ -13,8 +14,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa08f75c-6f53-47a4-b450-109a40ffb606" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.FSharp/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FSharp/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment4/Lecture 5.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FSharp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FSharp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment4/Assignment4.fsproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment4/Assignment4.fsproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment4/State.fs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment4/State.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FSharp.sln" beforeDir="false" afterPath="$PROJECT_DIR$/FSharp.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +41,7 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Program.fs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Program.fs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -154,6 +158,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="InClassModule" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/InClassModule/InClassModule.fsproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="Kattis" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -182,7 +204,14 @@
       <option name="presentableId" value="Default" />
       <updated>1740470058684</updated>
       <workItem from="1740470059865" duration="3199000" />
-      <workItem from="1740476925948" duration="460000" />
+      <workItem from="1740476925948" duration="723000" />
+      <workItem from="1740478619473" duration="371000" />
+      <workItem from="1740912401820" duration="607000" />
+      <workItem from="1740946313368" duration="8053000" />
+      <workItem from="1740976116571" duration="194000" />
+      <workItem from="1740976323147" duration="4080000" />
+      <workItem from="1741079756971" duration="710000" />
+      <workItem from="1741087952036" duration="35000" />
     </task>
     <servers />
   </component>
@@ -190,6 +219,17 @@
     <option name="version" value="3" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
