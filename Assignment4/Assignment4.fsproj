@@ -6,10 +6,10 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Compile Include="Eval.fs" />
         <Compile Include="Language.fs" />
         <Compile Include="Programs.fs" />
         <Compile Include="State.fs" />
+        <Compile Include="Eval.fs" />
         <Content Include="Lecture 5.txt" />
     </ItemGroup>
 

@@ -14,11 +14,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa08f75c-6f53-47a4-b450-109a40ffb606" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignment4/Lecture 5.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FSharp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FSharp/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment4/Assignment4.fsproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment4/Assignment4.fsproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment4/Eval.fs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment4/Eval.fs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment4/State.fs" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment4/State.fs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FSharp.sln" beforeDir="false" afterPath="$PROJECT_DIR$/FSharp.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +210,8 @@
       <workItem from="1740976116571" duration="194000" />
       <workItem from="1740976323147" duration="4080000" />
       <workItem from="1741079756971" duration="710000" />
-      <workItem from="1741087952036" duration="35000" />
+      <workItem from="1741087952036" duration="935000" />
+      <workItem from="1741093110000" duration="8568000" />
     </task>
     <servers />
   </component>
